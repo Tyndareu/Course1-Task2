@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  h1{
+      font-size: 3rem;
+
+      }
+
+
+  
+  h2{
+    size: 1.5rem;
+    margin: 10px;
+  }
+
+  h3{
+    margin:0px;
+  }
+
+  .header{
+        padding: 40px;
+  }
+
+  .menu-about{
+    padding-left: 40px;
+  }
+
+  .menu-about nav{
+    padding-top: 40px;
+  }
+.navegator{
+  margin: auto;
+  width: 90%;
+
+}
+  .navegator img{
+    position: relative;
+    width: 100%;
+  }
+
+  .navegator h1{
+    text-align: left ;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+
+  }
+
+  .under{
+    position: relative;
+    margin: auto;
+    width: 90%;
+    border: 2px solid black;
+    background-color: rgb(11, 63, 141);
+    color: white;
+    text-align: center;
+  }
+  .under img{
+    width: 100px;
+    position: absolute;
+    top: -50%;
+    right: 10%;
+    color: white;
+  
+  }
+/* FIN MENU */
+  .contenido{
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+nav{
+
+  margin-right: 50px;
+}
+  .menu nav a{
+    font-size: 1.5rem;
+    display: block;
+  }
+
+  p{
+    margin-top:0px
+  }
+
+  .scroll-container {
+    margin: 0px;
+    width: 40%;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
